@@ -1,39 +1,49 @@
 .navbar {
   padding: 20px 100px;
-  align-items: center; }
+  align-items: center;
+}
 
 nav {
-  height: 103.08px; }
+  height: 103.08px;
+}
 
 .navbar-left, .navbar-middle, .navbar-right {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .navbar-left, .navbar-right {
   width: 45%;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .navbar-middle {
   width: 10%;
-  text-align: center; }
+  text-align: center;
+}
 
 .navbar-divider {
-  color: #b9cbc4; }
+  color: rgb(185, 203, 196);
+}
 
 .navbar-item-wrapper {
   display: flex;
   justify-content: end;
-  padding-right: 30px; }
+  padding-right: 30px;
+}
 
 .navbar-item {
-  color: #b9cbc4;
+  color: rgb(185, 203, 196);
   margin: 0 20px;
   font-family: "Lalezar";
-  font-size: 1.4em; }
+  font-size: 1.4em;
+}
 
 .navbar-item:hover {
-  cursor: grab; }
+  cursor: grab;
+}
 
 .active {
-  color: white; }
+  color: white;
+}
 
 /*# sourceMappingURL=Navbar.css.map */

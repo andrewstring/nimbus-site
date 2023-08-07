@@ -4,30 +4,36 @@
   height: 800px;
   text-align: center;
   position: relative;
-  color: white; }
+  color: white;
+}
 
 .detail-right {
   margin-right: 300px;
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 .detail-right p {
   text-align: right;
-  padding-right: 20px; }
+  padding-right: 20px;
+}
 
 .detail h4 {
   font-family: "Outfit";
-  font-size: 2.5em; }
+  font-size: 2.5em;
+}
 
 .detail p {
   font-family: "Open Sans Hebrew", serif;
   font-size: 1.4em;
   width: 300px;
-  margin: 10px auto; }
+  margin: 10px auto;
+}
 
 .backing-square {
   position: absolute;
   z-index: -1;
-  border-radius: 50px; }
+  border-radius: 50px;
+}
 
 .first {
   background-color: #391B1B;
@@ -35,7 +41,8 @@
   left: -350px;
   width: 800px;
   height: 550px;
-  transform: rotate(10deg); }
+  transform: rotate(10deg);
+}
 
 .second {
   background-color: #141116;
@@ -43,44 +50,51 @@
   height: 450px;
   top: -90px;
   left: -25px;
-  transform: rotate(-7deg); }
+  transform: rotate(-7deg);
+}
 
 .art {
-  position: absolute; }
+  position: absolute;
+}
 
 .art-surround-one, .art-surround-two {
   position: absolute;
-  border: solid #919141 5px;
-  opacity: .4;
+  border: solid rgb(145, 145, 65) 5px;
+  opacity: 0.4;
   border-radius: 200px;
-  background-color: #919141; }
+  background-color: rgb(145, 145, 65);
+}
 
 .art-surround-one {
   top: -100px;
   left: 800px;
   width: 700px;
   height: 600px;
-  transform: rotate(-5deg); }
+  transform: rotate(-5deg);
+}
 
 .art-surround-two {
   top: -200px;
   right: 740px;
   width: 700px;
   height: 640px;
-  transform: rotate(10deg); }
+  transform: rotate(10deg);
+}
 
 .one {
   width: 500px;
   height: auto;
   top: -100px;
   left: 900px;
-  transform: rotate(75deg); }
+  transform: rotate(75deg);
+}
 
 .two {
   width: 600px;
   height: auto;
   top: -150px;
   right: 800px;
-  transform: rotate(180deg); }
+  transform: rotate(180deg);
+}
 
 /*# sourceMappingURL=Detail.css.map */
