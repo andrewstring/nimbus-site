@@ -4,9 +4,13 @@
     border: solid #797B21 5px;
     border-radius: 30px;
 }
+.logo:hover {
+    cursor: grab;
+}
 
 .logo img {
     width: 7.7em;
+    
 }
 
 .logo-text {

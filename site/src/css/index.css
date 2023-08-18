@@ -11,4 +11,7 @@ h1 {
   -webkit-user-select: none;
   -o-user-select: none; }
 
+.nograb {
+  pointer-events: none; }
+
 /*# sourceMappingURL=index.css.map */
