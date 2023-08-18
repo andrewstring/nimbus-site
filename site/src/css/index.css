@@ -4,4 +4,11 @@ body {
 h1 {
   margin: 0px; }
 
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none; }
+
 /*# sourceMappingURL=index.css.map */
