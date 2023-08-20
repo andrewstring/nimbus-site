@@ -12,6 +12,10 @@ img {
     pointer-events: none;
 }
 
+::selection {
+    background-color: $yellow;
+}
+
 .noselect {
     user-select: none;
     -moz-user-select: none;

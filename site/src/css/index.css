@@ -7,6 +7,9 @@ h1 {
 img {
   pointer-events: none; }
 
+::selection {
+  background-color: #919141; }
+
 .noselect {
   user-select: none;
   -moz-user-select: none;

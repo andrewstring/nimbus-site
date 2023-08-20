@@ -1,9 +1,10 @@
 $base-background: #36491E;
+$yellow: rgb(145, 145, 65);
 
 
 
 // Navbar
-$divider: rgb(145, 145, 65);
+$divider: $yellow;
 $navbar-color: rgb(185, 203, 196);
 $navbar-color-active: white;
 
