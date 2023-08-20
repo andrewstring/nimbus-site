@@ -11,7 +11,11 @@
   width: 7.7em; }
 
 .logo-text {
-  color: #FFFFFF;
+  color: #b9cbc4;
+  font-size: 1.5em; }
+
+.logo-text {
+  font-family: "Krona One";
   font-size: 1.5em; }
 
 /*# sourceMappingURL=Logo.css.map */

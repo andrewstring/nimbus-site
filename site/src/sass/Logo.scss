@@ -1,3 +1,6 @@
+@import "colors";
+@import "fonts";
+
 .logo {
     display: inline-block;
     padding: 5px 20px;
@@ -14,6 +17,10 @@
 }
 
 .logo-text {
-    color: #FFFFFF;
-    font-size: 1.5em;
+    color: $navbar-color;
+    font-size: $logo-text-font-size;
+}
+.logo-text {
+    font-family: $logo-text-font;
+    font-size: $logo-text-font-size;
 }

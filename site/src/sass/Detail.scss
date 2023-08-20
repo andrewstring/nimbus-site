@@ -1,0 +1,78 @@
+@import "spacing";
+@import "fonts";
+@import "colors";
+
+.detail {
+    max-width: 400px;
+    margin: 250px 100px;
+    height: calc(#{100vh} - #{$navbar-height-total});
+    text-align: center;
+    position: relative;
+    color: $detail-color;
+}
+
+.detail-right {
+    margin-right: 300px;
+    margin-left: auto;
+}
+.detail-right p {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.detail h4 {
+    font-family: $detail-header-font;
+    font-size: $detail-header-font-size;
+}
+
+.detail p {
+    font-family: $detail-font;
+    font-size: $detail-font-size;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.backing-square {
+    position: absolute;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.first {
+    background-color: $detail-first-background-color;
+    top: -140px;
+    left: -350px;
+    width: 800px;
+    height: 550px;
+    transform: rotate(10deg);
+}
+
+.second {
+    background-color: $detail-second-background-color;
+    width: 500px;
+    height: 400px;
+    top: -90px;
+    left: -25px;
+    transform: rotate(-7deg);
+    
+}
+
+.art {
+    position: absolute;
+}
+
+.one {
+    width: 500px;
+    height: auto;
+    top: -100px;
+    left: 900px;
+    transform: rotate(75deg);
+}
+
+.two {
+    width: 600px;
+    height: auto;
+    top: -150px;
+    right: 800px;
+    transform: rotate(180deg);
+}

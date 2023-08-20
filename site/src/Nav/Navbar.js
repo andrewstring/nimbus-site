@@ -8,14 +8,18 @@ const Navbar = (props) => {
     return (
         <div className="navbar">
             <nav>
-                <div className="left">
+                <div className="navbar-left">
                     <Logo></Logo>
                 </div>
-                <div className="middle">
-
+                <div className="navbar-middle">
+                    <h3 className="navbar-divider">|</h3>
                 </div>
-                <div className="right">
-
+                <div className="navbar-right">
+                    <div className="navbar-item-wrapper">
+                        <a className="navbar-item active">Home</a>
+                        <a className="navbar-item">About</a>
+                        <a className="navbar-item">Contact</a>
+                    </div>
                 </div>
                 
             </nav>

@@ -1,8 +1,36 @@
 .navbar {
-  margin: 20px 100px; }
+  padding: 20px 100px;
+  align-items: center; }
 
-.logo-text {
-  font-family: "Krona One";
-  font-size: 30px; }
+nav {
+  height: 103.08px; }
+
+.navbar-left, .navbar-middle, .navbar-right {
+  display: inline-block; }
+
+.navbar-left, .navbar-right {
+  width: 45%;
+  display: inline-block; }
+
+.navbar-middle {
+  width: 10%;
+  text-align: center; }
+
+.navbar-divider {
+  color: #b9cbc4; }
+
+.navbar-item-wrapper {
+  display: flex;
+  justify-content: end;
+  padding-right: 30px; }
+
+.navbar-item {
+  color: #b9cbc4;
+  margin: 0 20px;
+  font-family: "Lalezar";
+  font-size: 1.4em; }
+
+.active {
+  color: white; }
 
 /*# sourceMappingURL=Navbar.css.map */
