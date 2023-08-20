@@ -36,6 +36,9 @@ $middle: 10%;
     font-family: $navbar-item-font;
     font-size: $navbar-item-font-size;
 }
+.navbar-item:hover {
+    cursor: grab;
+}
 .active {
     color: $navbar-color-active;
 }

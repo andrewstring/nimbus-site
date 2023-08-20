@@ -30,6 +30,9 @@ nav {
   font-family: "Lalezar";
   font-size: 1.4em; }
 
+.navbar-item:hover {
+  cursor: grab; }
+
 .active {
   color: white; }
 

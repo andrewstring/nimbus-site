@@ -12,7 +12,7 @@ const Navbar = (props) => {
                     <Logo></Logo>
                 </div>
                 <div className="navbar-middle">
-                    <h3 className="navbar-divider">|</h3>
+                    <h3 className="navbar-divider noselect">|</h3>
                 </div>
                 <div className="navbar-right">
                     <div className="navbar-item-wrapper">

@@ -8,6 +8,10 @@ h1 {
     margin: 0px;
 }
 
+img {
+    pointer-events: none;
+}
+
 .noselect {
     user-select: none;
     -moz-user-select: none;
