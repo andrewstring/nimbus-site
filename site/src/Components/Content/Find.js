@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import "../../css/Find.css"
 
 
 const Find = (props) => {

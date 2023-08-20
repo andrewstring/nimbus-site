@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import "../css/Logo.css"
+import "../../css/Logo.css"
 
 const Logo = (props) => {
     return (
