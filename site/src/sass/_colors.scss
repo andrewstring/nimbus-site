@@ -1,8 +1,6 @@
 $base-background: #36491E;
 $yellow: rgb(145, 145, 65);
 
-
-
 // Navbar
 $divider: $yellow;
 $navbar-color: rgb(185, 203, 196);
@@ -12,3 +10,7 @@ $navbar-color-active: white;
 $detail-color: white;
 $detail-first-background-color: #391B1B;
 $detail-second-background-color: #141116;
+
+//Find
+$find-color: $detail-color;
+$find-background-color: $detail-second-background-color;

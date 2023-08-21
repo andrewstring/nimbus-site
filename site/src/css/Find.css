@@ -1,3 +1,26 @@
+.find-outer {
+  display: flex;
+  justify-content: center; }
 
+.find-inner {
+  display: flex;
+  align-items: flex-start;
+  margin: 0px 20px 30px;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: #141116; }
+
+.find-outer h4, .find-outer img {
+  display: inline-block; }
+
+.find-outer h4 {
+  font-family: "Outfit";
+  font-size: 2.5em;
+  color: white;
+  text-decoration: underline; }
+
+.find-outer img {
+  margin: 0px 100px;
+  border-radius: 40px; }
 
 /*# sourceMappingURL=Find.css.map */

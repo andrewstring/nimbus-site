@@ -18,6 +18,7 @@ const Navbar = (props) => {
                     <div className="navbar-item-wrapper">
                         <a className="navbar-item active">Home</a>
                         <a className="navbar-item">About</a>
+                        <a className="navbar-item">Offerings</a>
                         <a className="navbar-item">Contact</a>
                     </div>
                 </div>
