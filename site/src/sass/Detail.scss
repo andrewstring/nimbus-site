@@ -4,8 +4,9 @@
 
 .detail {
     max-width: 400px;
-    margin: 250px 100px;
-    height: calc(#{100vh} - #{$navbar-height-total});
+    margin: 150px 100px;
+    height: 800px;
+    //height: calc(#{100vh} - #{$navbar-height-total});
     text-align: center;
     position: relative;
     color: $detail-color;

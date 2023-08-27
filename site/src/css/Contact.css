@@ -1,3 +1,47 @@
+.contact {
+  width: 1000px;
+  margin: auto; }
 
+.contact form {
+  display: inline-grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto; }
+
+.contact input {
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 10px; }
+
+.contact .first-name {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3; }
+
+.contact .last-name {
+  grid-row-start: 0;
+  grid-row-end: 0;
+  grid-column-start: 3;
+  grid-column-end: 5; }
+
+.contact .email {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4; }
+
+.contact .submit {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4; }
+
+.contact h4 {
+  display: inline-block;
+  width: 100px;
+  text-align: center; }
 
 /*# sourceMappingURL=Contact.css.map */

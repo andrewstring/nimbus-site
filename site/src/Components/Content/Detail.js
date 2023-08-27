@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import "../../css/Detail.css"
+import '../../css/Detail.css'
 
 
 const Detail = (props) => {
