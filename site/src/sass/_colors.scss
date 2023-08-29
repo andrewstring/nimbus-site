@@ -1,3 +1,4 @@
+// Global
 $base-background: #36491E;
 $yellow: rgb(145, 145, 65);
 
@@ -11,6 +12,10 @@ $detail-color: white;
 $detail-first-background-color: #391B1B;
 $detail-second-background-color: #141116;
 
-//Find
+// Find
 $find-color: $detail-color;
 $find-background-color: $detail-second-background-color;
+
+// Contact
+$contact-background-color: $detail-second-background-color;
+$contact-color: white;
