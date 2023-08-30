@@ -6,14 +6,14 @@ import Logo from "./Logo.js"
 
 const Navbar = (props) => {
     return (
-        <div className="navbar">
-            <nav>
+        <nav>
+            <div className="navbar">
                 <div className="navbar-left">
                     <Logo></Logo>
                 </div>
-                <div className="navbar-middle">
+                {/* <div className="navbar-middle">
                     <h3 className="navbar-divider noselect">|</h3>
-                </div>
+                </div> */}
                 <div className="navbar-right">
                     <div className="navbar-item-wrapper">
                         <a className="navbar-item active">Home</a>
@@ -23,8 +23,8 @@ const Navbar = (props) => {
                     </div>
                 </div>
                 
-            </nav>
-        </div>
+            </div>
+        </nav>
     )
 }
 
