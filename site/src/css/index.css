@@ -1,29 +1,23 @@
 body {
-  background-color: #36491E;
-}
+  background-color: #36491E; }
 
 h1 {
-  margin: 0px;
-}
+  margin: 0px; }
 
 img {
-  pointer-events: none;
-}
+  pointer-events: none; }
 
 ::selection {
-  background-color: rgb(145, 145, 65);
-}
+  background-color: #919141; }
 
 .noselect {
   user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
-  -o-user-select: none;
-}
+  -o-user-select: none; }
 
 .nograb {
-  pointer-events: none;
-}
+  pointer-events: none; }
 
 /*# sourceMappingURL=index.css.map */

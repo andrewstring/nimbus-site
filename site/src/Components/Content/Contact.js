@@ -7,9 +7,9 @@ const Contact = (props) => {
         <div className="contact-outer">
             <div className="contact-inner">
                 <form>
-                    <input className="first-name" type="text" name="first-name" placeholder="First Name"></input>
-                    <input className="last-name" type="text" name="last-name" placeholder="Last Name"></input>
-                    <input className="email" type="text" name="email" placeholder="Email"></input>
+                    <input className="first-name" type="text" name="first-name" placeholder="First Name" required="required"></input>
+                    <input className="last-name" type="text" name="last-name" placeholder="Last Name" required="required"></input>
+                    <input className="email" type="email" name="email" placeholder="Email" required="required"></input>
                     <input className="submit" type="submit" value="Submit"></input>
                 </form>
                 <h4>SHOOT</h4>

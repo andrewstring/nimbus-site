@@ -1,13 +1,15 @@
+.contact-outer {
+  margin-bottom: 120px; }
+
 .contact-inner {
   background-color: #141116;
-  width: 800px;
+  width: 1000px;
   margin: 50px auto;
   padding: 50px;
   border-radius: 20px;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 80% 20%;
-}
+  grid-template-columns: 80% 20%; }
 
 .contact-inner input {
   font-family: "Lalezar";
@@ -15,24 +17,31 @@
   text-align: center;
   border-radius: 20px;
   border: none;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-.contact-inner input[type=text] {
+.contact-inner input[type=text], .contact-inner input[type=email] {
   background-color: #A9AFA7;
   color: #163915;
   padding: 10px;
-  margin: 10px 20px;
-}
+  margin: 10px 20px; }
+
+.contact-inner input[type=text]:focus::placeholder {
+  color: transparent; }
+
+.contact-inner input[type=text]:focus {
+  outline: solid #36491E 2px; }
+
+.contact-inner input[type=submit] {
+  background-color: #242b23;
+  color: white; }
 
 .contact-inner h4 {
   text-align: center;
-  margin: 50px auto;
-  font-family: "Lalezar";
-  font-size: 1.4em;
+  margin: 20px auto auto 30px;
+  font-family: "Outfit";
+  font-size: 2.5em;
   color: white;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .contact-inner form {
   grid-column-start: 1;
@@ -41,35 +50,30 @@
   align-items: center;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
 
 .contact-inner .first-name {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 2;
-}
+  grid-row-end: 2; }
 
 .contact-inner .last-name {
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 2;
-}
+  grid-row-end: 2; }
 
 .contact-inner .email {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-end: 3;
-}
+  grid-row-end: 3; }
 
 .contact-inner .submit {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 3;
-  grid-row-end: 4;
-}
+  grid-row-end: 4; }
 
 /*# sourceMappingURL=Contact.css.map */
