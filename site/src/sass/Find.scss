@@ -1,0 +1,28 @@
+@import "fonts";
+@import "colors";
+
+.find-inner {
+    background-color: $find-background-color;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 80%;
+}
+
+.find-inner img {
+    grid-column-start: 2;
+    justify-self: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.find-inner h4 {
+    text-align: center;
+    margin: 50px auto;
+    font-family: $detail-header-font;
+    font-size: $detail-header-font-size;
+    color: $find-color;
+    text-decoration: underline;
+}

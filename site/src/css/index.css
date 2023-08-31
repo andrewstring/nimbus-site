@@ -1,4 +1,48 @@
+@keyframes fade-out-animation {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes slide-in-animation {
+  from {
+    transform: translateX(-100%); }
+  to {
+    transform: translateX(0%); } }
+html {
+  overflow-x: hidden; }
+
 body {
-  background: #36491E; }
+  background-color: #36491E; }
+
+h1 {
+  margin: 0px; }
+
+img {
+  pointer-events: none; }
+
+::selection {
+  background-color: #919141; }
+
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none; }
+
+.nograb {
+  pointer-events: none; }
+
+.clickable {
+  pointer-events: auto;
+  cursor: grab; }
+
+.fade-out {
+  animation-name: fade-out-animation;
+  animation-duration: .5s; }
+
+.slide-in {
+  animation-name: slide-in-animation;
+  animation-duration: .5s; }
 
 /*# sourceMappingURL=index.css.map */
