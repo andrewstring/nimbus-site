@@ -1,0 +1,25 @@
+@import "colors";
+@import "fonts";
+
+.logo {
+    display: inline-block;
+    padding: 5px 20px;
+    border: solid #797B21 5px;
+    border-radius: 30px;
+}
+.logo:hover {
+    cursor: grab;
+}
+
+.logo img {
+    width: 7.7em;
+}
+
+.logo-text {
+    color: $navbar-color;
+    font-size: $logo-text-font-size;
+}
+.logo-text {
+    font-family: $logo-text-font;
+    font-size: $logo-text-font-size;
+}
