@@ -12,7 +12,7 @@ const Contact = (props) => {
                     <input className="email" type="email" name="email" placeholder="Email" required="required"></input>
                     <input className="submit" type="submit" value="Submit"></input>
                 </form>
-                <h4>SHOOT</h4>
+                <h4>CONTACT US</h4>
             </div>
         </div>
     )
