@@ -1,7 +1,7 @@
 .find-inner {
   background-color: #141116;
-  width: 1000px;
   margin: auto;
+  width: 1000px;
   padding: 50px;
   border-radius: 20px;
   display: grid;
@@ -21,5 +21,32 @@
   font-size: 2.5em;
   color: white;
   text-decoration: underline; }
+
+@media only screen and (max-width: 1200px) {
+  .find-inner {
+    width: 700px;
+    grid-template-columns: 30% 70%; }
+
+  .find-inner img {
+    height: auto;
+    width: 450px; } }
+@media only screen and (max-width: 850px) {
+  .find-inner {
+    padding: 20px;
+    width: 500px;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 1fr; }
+
+  .find-inner img {
+    grid-column-start: 1;
+    grid-row-start: 2; } }
+@media only screen and (max-width: 580px) {
+  .find-inner {
+    grid-template-rows: 30% 70%;
+    width: 80vw; }
+
+  .find-inner img {
+    height: auto;
+    width: 400px; } }
 
 /*# sourceMappingURL=Find.css.map */

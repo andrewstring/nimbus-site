@@ -53,7 +53,7 @@ nav {
     display: flex;
     margin: auto;
 }
-@media only screen and (max-width: $small) {
+@media only screen and (max-width: $x-small) {
     .navbar-item-wrapper-hideable {
         display: none;
     }
@@ -62,7 +62,7 @@ nav {
     display: none;
     margin-right: 30px;
 }
-@media only screen and (max-width: $small) {
+@media only screen and (max-width: $x-small) {
     .collapsed-navbar {
         display: block;
     }

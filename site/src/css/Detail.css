@@ -39,9 +39,13 @@
 
 .art.one {
   width: 400px; }
+  .art.one .art.one {
+    width: 250px; }
+  .art.one .art.two {
+    width: 250px; }
 
 .art.two {
-  width: 500px; }
+  width: 450px; }
 
 @media only screen and (max-width: 715px) {
   .art {
@@ -51,6 +55,9 @@
     margin: 40px 0px;
     width: 80vw;
     padding: 20px; } }
+@media only screen and (max-width: 1200px) {
+  .detail {
+    margin: 100px 0px; } }
 .detail-flipped .detail-content {
   order: 2; }
 
@@ -58,11 +65,20 @@
   order: 1; }
 
 @media only screen and (max-width: 1554px) {
+  .detail {
+    flex-direction: column; }
+
   .detail-flipped .detail-content {
     order: 1; }
 
   .detail-flipped .art-surround {
-    order: 2; } }
+    order: 2; }
+
+  .art.one {
+    width: 250px; }
+
+  .art.two {
+    width: 250px; } }
 .second .detail-content {
   background-color: #0e2f1b; }
 
