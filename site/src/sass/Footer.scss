@@ -1,10 +1,11 @@
 @import "colors";
 @import "fonts";
+@import "breakpoints";
 
 .footer {
     display: flex;
     width: 100%;
-    height: 100px;
+    padding: 30px 0px;
     background-color: $footer-background-color;
     border-radius: 50px 50px 0px 0px;
     box-shadow: 0px -13px #1a2718;
@@ -12,11 +13,12 @@
 
 .footer .left {
     flex-grow: 1;
+    width: 200px;
 }
 .footer .middle {
     text-align: center;
     align-self: center;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 .footer .middle h5 {
     margin-top: 0px;
@@ -30,6 +32,7 @@
     text-align: center;
     align-self: center;
     flex-grow: 1;
+    width: 200px;
 }
 
 .footer .right .social-media-logo {
@@ -42,4 +45,11 @@
 }
 .footer .right .social-media-link:hover {
     cursor: grab;
+}
+
+@media only screen and (max-width: $x-small) {
+    .footer {
+        flex-direction: column;
+    }
+
 }
